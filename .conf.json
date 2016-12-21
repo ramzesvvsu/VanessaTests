@@ -1,0 +1,34 @@
+﻿{
+   "ИмяСборки":"Сборка 8.3.7 UF",
+   "ВерсияПлатформы":"8.3.8",
+   "ВыводитьСообщенияВФайл": ".\vanessalog.txt",
+   "КаталогПоискаВерсииПлатформы":"C:\Program Files (x86)\1cv8",
+   "СтрокаПодключенияКБазе":"ENTERPRISE /S 10.126.220.48\kgs_prerls",
+   "ПутьКVanessaBehavior": "D:\Repository\vanessa-behavior\vanessa-behavior.epf",
+   "КаталогФич": "D:\Repository\FeaturesWork\features",
+   "КаталогиБиблиотек":[
+   "D:\Repository\vanessa-behavior\features\Libraries",
+   "D:\Repository\FeaturesWork\features",
+  
+   ],
+ "ДелатьОтчетВФорматеxUnit": "Истина",
+ "КаталогOutputxUnit": "D:\Repository\JenkinsVanessa3\workspace\testVanessa\Build\test-reportsJUnit",
+
+ 
+ "ДелатьОтчетВФорматеАллюр": "Истина",
+"КаталогOutputAllureБазовый": "D:\Repository\JenkinsVanessa3\workspace\testVanessa\Build\test-reports",
+  "ВыполнитьСценарии": "Истина",
+   "ЗавершитьРаботуСистемы": "Истина",
+   "ЗакрытьTestClientПослеЗапускаСценариев": "Истина",
+   "ДелатьЛогВыполненияСценариевВЖР": "Истина",
+   "ДелатьСкриншотПриВозникновенииОшибки": "Истина",
+   "КаталогOutputСкриншоты": "D:\Repository\FeaturesWork\build\Error",
+   "КомандаСделатьСкриншот": '"D:\Program Files\IrfanView\i_view64.exe" /capture=1 /convert=',
+   "ВыгружатьСтатусВыполненияСценариевВФайл": "Истина",
+   "ДобавлятьКИмениСценарияУловияВыгрузки": "Истина",
+   "ПутьКФайлуДляВыгрузкиСтатусаВыполненияСценариев": ".\BuildStatus.log",
+   "СписокТеговИсключение":[
+   "IgnoreOnCIMainBuild",
+   "IgnoreOn837"
+   ]
+}
